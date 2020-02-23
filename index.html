@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>dogs!</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <form class="dog-form">
+      <div class="form-group">
+        <label for="name">Dog Name:</label>
+        <input type="text" name="name" placeholder="Rex" />
+      </div>
+      <div class="form-group">
+        <label for="breed">Dog Breed:</label>
+        <input type="text" name="breed" placeholder="Greyhound" />
+      </div>
+      <div class="form-group">
+        <label for="image">Image URL:</label>
+        <input type="text" name="image" placeholder="Image URL" />
+      </div>
+      <div class="form-group">
+        <label for="age">Age:</label>
+        <input type="number" name="age" placeholder="Age" />
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <main class="dogs-container">
+      <!-- dog cards will go here -->
+    </main>
+  </body>
+</html>

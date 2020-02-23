@@ -1,0 +1,9 @@
+* {
+  align-items: center;
+  text-align: center;
+}
+.card {
+  width: 18rem;
+  margin: auto;
+  margin-bottom: 2rem;
+}
