@@ -31,6 +31,7 @@ function createDogCard(dog) {
     event.preventDefault();
     const age = document.getElementById(`dog${dog.id}`).value;
     console.log(age);
+    createDogCard({ age });
     fetch(`${BASE_URL}/${dog.id}`, {
       method: "PATCH",
       headers: {
